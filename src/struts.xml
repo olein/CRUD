@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+   "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+   "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+   
+<package name="default" extends="struts-default">
+
+	<action name="index">
+    	<result>/index.jsp</result>
+  	</action>
+  	
+	<action name="Login" class="fahim.Account" method="Login">
+    	<result name="success">/HomePage.jsp</result>
+    	<result name="failure">/Failure.jsp</result>
+  	</action> 
+
+	
+	<action name="createAccount">
+    	<result>/CreateAccount.jsp</result>
+  	</action>
+  	
+  	<action name="AccountCreateAction" class="fahim.Account" method="Create">
+    	<result name="success">/success.jsp</result>
+    	<result name="failure">/Failure.jsp</result>
+  	</action> 
+  	
+  	<action name="UpdateAccount">
+    	<result>/UpdateAccount.jsp</result>
+  	</action>
+  	
+  	<action name="AccountUpdateAction" class="fahim.Account" method="Update">
+    	<result name="success">/HomePage.jsp</result>
+    	<result name="failure">/Failure.jsp</result>
+  	</action> 
+  	
+  	<action name="DeleteAccount">
+    	<result>/DeleteAccount.jsp</result>
+  	</action>
+  	
+  	<action name="AccountDeleteAction" class="fahim.Account" method="Delete">
+    	<result name="success">/index.jsp</result>
+    	<result name="failure">/Failure.jsp</result>
+  	</action> 
+  	
+  	<action name="Logout" class="fahim.Account" method="Logout">
+    	<result name="success">/index.jsp</result>
+    	<result name="failure">/Failure.jsp</result>
+  	</action> 
+  	
+  	<action name="Home">
+    	<result>/HomePage.jsp</result>
+  	</action>
+
+</package>
+</struts>
