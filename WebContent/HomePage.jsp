@@ -138,7 +138,7 @@ response.setDateHeader("Expires", 0);
 </ul>
 
 
-<br/><br/><h1>Welcome</h1><br/>
+<br/><br/><h1>Welcome <%= request.getAttribute("name")%></h1>
 
 
 
