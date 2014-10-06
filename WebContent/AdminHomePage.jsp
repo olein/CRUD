@@ -29,7 +29,7 @@ response.setDateHeader("Expires", 0);
 			
 			<li><a href="<s:url action="UpdateAccount" />" >Update Account</a></li>
 			<li><a href="<s:url action="DeleteAccount" />" >Delete Account</a></li>
-			
+			<li><a href="<s:url action="ListAccount" />" >Account List</a></li>
 		</ul>
 	</li>
 	
@@ -40,7 +40,7 @@ response.setDateHeader("Expires", 0);
 </ul>
 
 
-<br/><br/><h1>Welcome User</h1>
+<br/><br/><h1>Welcome Admin</h1>
 
 
 

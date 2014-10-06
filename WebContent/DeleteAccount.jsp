@@ -6,7 +6,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <title>Delete Account</title>
-<link rel="stylesheet" type="text/css" href="<s:url value="D:/XML/style2.css"/>"/>
+<link rel="stylesheet" type="text/css" href="<s:url value="style_index.css"/>"/>
 </head>
 <body>
 <br></br>
@@ -20,7 +20,7 @@ Verify User Name and Password:</b><br/><br/>
 
 <s:form action="AccountDeleteAction">
  
-      <s:textfield name="name"  label ="Current User Name"/> 
+      <s:textfield name="name"  label ="Current User Email"/> 
       <s:password name="password"  label="Current Password"  />
       
       <s:submit/>
