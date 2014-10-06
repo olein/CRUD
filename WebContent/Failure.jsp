@@ -5,10 +5,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Error</title>
 <style type="text/css">
-body {background-color: #F5DEB3}
+body {background-color: #444444}
 </style>
+<title>Error</title>
+
 </head>
 <body>
 <br/>

@@ -12,7 +12,8 @@
   	</action>
   	
 	<action name="Login" class="fahim.Account" method="Login">
-    	<result name="success">/HomePage.jsp</result>
+    	<result name="User">/HomePage.jsp</result>
+    	<result name="Admin">/AdminHomePage.jsp</result>
     	<result name="failure">/Failure.jsp</result>
   	</action> 
 
@@ -44,6 +45,10 @@
     	<result name="failure">/Failure.jsp</result>
   	</action> 
   	
+  	<action name="ListAccount" class="fahim.Account" method="AccountList">
+    	<result name="success">/ListAccount.jsp</result>
+  	</action>
+  	
   	<action name="Logout" class="fahim.Account" method="Logout">
     	<result name="success">/index.jsp</result>
     	<result name="failure">/Failure.jsp</result>
@@ -51,6 +56,10 @@
   	
   	<action name="Home">
     	<result>/HomePage.jsp</result>
+  	</action>
+  	
+  	<action name="Back">
+    	<result>/AdminHomePage.jsp</result>
   	</action>
 
 </package>

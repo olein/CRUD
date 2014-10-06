@@ -5,11 +5,15 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-
-<title>Create New Account</title>
+<link rel="stylesheet" type="text/css" href="<s:url value="style_index.css"/>"/>
 <style type="text/css">
-body {background-color: #F5DEB3}
+body
+{
+background-color:#dddddd;
+}
 </style>
+<title>Create New Account</title>
+
 
 </head>
 <body>
@@ -21,7 +25,7 @@ body {background-color: #F5DEB3}
  
  <s:form action = "AccountCreateAction">
 
-  	  <s:textfield name="name"  label ="User Name"/> 
+  	  <s:textfield name="name"  label ="User Email"/> 
       <s:password name="password"  label="Password"  />
       <s:password name="passwordConfirm"  label="Confirm Password"  />
       

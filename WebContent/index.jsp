@@ -30,7 +30,7 @@ response.setDateHeader("Expires", 0);
  <h3>Login</h3>
 <s:form action="Login" method="POST">
  
-      <s:textfield name="name"  label ="User Name"/> 
+      <s:textfield name="name"  label ="User email"/> 
       <s:password name="password"  label="Password"  />
              
       <s:submit label="Login"/>
