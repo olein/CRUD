@@ -28,6 +28,7 @@ response.setDateHeader("Expires", 0);
  <br></br>
  <div align="center">
  <h3>Login</h3>
+ 
 <s:form action="Login" method="POST">
  
       <s:textfield name="name"  label ="User email"/> 
